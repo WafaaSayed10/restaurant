@@ -1,0 +1,98 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.landing{
+    background-image: url('../images/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+.landing .logo{
+    padding-top: 50px;
+}
+.landing .content{
+    color: white;
+}
+.landing .content h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+.landing .content button{
+    padding: 10px 20px;
+    border: none;
+}
+.landing .content .learn_more{
+    background-color: burlywood;
+}
+.landing .content .book_a_visit{
+    background-color: white;
+}
+.our_stor .chef{
+    width: 40%;
+    float: left;
+}
+.our_stor .chef img{
+    width: 100%;
+}
+.our_stor .content{
+    text-align: center;
+    padding-top: 50px;
+}
+.our_stor .content p{
+    line-height: 30px;
+}
+.our_stor .content span{
+    color: #09c;
+}
+.our_stor .content button{
+    padding: 20px;
+    background-color: transparent;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+.clr{
+    clear: both;
+}
+.bg_restaurant{
+    background-image: url('../images/bg-home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+}
+.cards .card{
+    width: 25%;
+    text-align: center;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.cards .card p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.cards .card .line{
+    height: 3px;
+    width: 40%;
+    background-color: #09c;
+    margin: auto;
+}
+.cards .card img{
+    width: 60%;
+    border-radius: 50%;
+}
+.cards .card button{
+    padding: 5px;
+    border: 2px solid #09c;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(101, 184, 212);
+}
